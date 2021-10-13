@@ -68,6 +68,17 @@ display: table;
 	height::300px;
 	
 	}
+	
+	.imagen-redonda2{
+border-radius: 100%;
+width: 120px;
+height: 120px;
+float: left;
+margin-right:10px;
+line-height: 150px;
+margin-top: 15px;
+margin-left: 15px;
+}
 
 
 
