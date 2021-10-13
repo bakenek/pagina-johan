@@ -21,7 +21,7 @@ line-height: 150px;
 color:  #66C;
 font-size: 30pt;
 }
-#navegacion{
+/*#navegacion{
 width:100%;
 background-color:  #F00;
 }
@@ -49,7 +49,7 @@ display: table;
 #navegacion ol li a:hover{
 color:teal;
 background-color: white;
-}
+}*/
 #cuerpo{
 width: 90%;
 height: 100%;
@@ -89,6 +89,41 @@ color:white;
 float: none;
 }
 
+.menu-main{
+display: flex;
+justify-content: space-between;
+background:  #F00;
+border-bottom: 1px  #F00;
+height:30px;
+line-height: 30px;
+}
+.menu-main a{
+font-family: arial;
+color: #ffffff;
+text-decoration: none;
+font-size: 12px;
+font-weight: bold;
+justify-content: center;
+align-items: center;
+display: block;
+text-align: center;
+}
+.menu-main a:hover{
+background:  #C00;
+display: block;
+}
+.menu-main a.active{
+background-color: #C00;
+}
+.menu-main{
+height: auto;
+border-bottom: 0px;
+display: block;
+}
+.menu-main a{
+height: 30px;
+border-bottom: 1px solid  #FFF;
+}
 
 
 
