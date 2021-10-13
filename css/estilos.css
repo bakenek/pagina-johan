@@ -1,3 +1,76 @@
 @charset "utf-8";
-/* CSS Document */
+body{
+margin: 0;
+padding: 0;
+}
+#contenedor{
+width: 100%;
+height: 100%;
+background-color:  #66F;
+}
+#encabezado{
+width:100%;
+height: 150px;
+background-image: url(../img/logo.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+#encabezado h1{
+margin:12px;
+line-height: 150px;
+color:  #66C;
+font-size: 30pt;
+}
+#navegacion{
+width:100%;
+background-color:  #F00;
+}
+#navegacion ol{
+display: flex;
+padding:0px;
+margin:0px;
+color:#99F;
+}
+#navegacion ol li{
 
+list-style: none;
+
+border-right: 1px solid purple;
+display: block;
+}
+#navegacion ol li a{
+color:white;
+text-decoration: none;
+font-weight: bold;
+padding: 15px 15px;
+display: table;
+}
+
+#navegacion ol li a:hover{
+color:teal;
+background-color: white;
+}
+#cuerpo{
+width: 90%;
+height: 100%;
+background-color:lightgrey;
+padding-left:5%;
+padding-right: 5%;
+padding-top: 2%;
+padding-bottom: 2%;
+display: table;
+}
+
+.centrar{
+	display:block;
+	margin:auto;
+	width:300px;
+	height::300px;
+	
+	}
+
+
+
+
+
+}
